@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    // === GIT ===
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    // === MARKDOWN ===
+    "DavidAnson.vscode-markdownlint",
+    "lpubsppop01.vscode-auto-timestamp", // frontmatterの時刻の自動更新
+    "esbenp.prettier-vscode",
+    // === RUST ===
+    "rust-lang.rust-analyzer",
+    "vadimcn.vscode-lldb", // debugのために必要
+    // === TOML ===
+    "be5invis.toml"  // Cargo.tomlなどのフォーマッターなど
+  ]
+}
