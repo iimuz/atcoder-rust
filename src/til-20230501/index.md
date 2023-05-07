@@ -21,7 +21,7 @@ AtCoder を Rust で書くためのフォルダです。
 ## 実行方法
 
 コンテストの問題を特に当たり下記の流れで実行します。
-AtCoder の問題を取得したりテンプレートを作成する部分は、[cargo-compete](https://github.com/qryxip/cargo-compete) に依存しています。
+AtCoder の問題を取得したりテンプレートを作成する部分は、cargo-compete に依存しています。
 
 ```sh
 cargo compete new abc111  # src/abc111にコンテストのデータを柵瀬
@@ -33,6 +33,14 @@ cargo compete open  # ブラウザでコンテストのページを開く
 
 cargo compete test a  # a問題のテスト実行
 cargo compete submit a  # a問題を提出
+```
+
+### cargo compete の導入
+
+[cargo-compete](https://github.com/qryxip/cargo-compete) は下記の方法で導入できる。
+
+```sh
+cargo install cargo-compete
 ```
 
 ## code style
