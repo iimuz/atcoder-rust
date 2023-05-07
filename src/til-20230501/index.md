@@ -38,3 +38,7 @@ cargo compete submit a  # a問題を提出
 ## code style
 
 TBD
+
+## 問題
+
+- [typicl90](/src/til-20230501/src/typical90): [競プロ典型 90 問](https://atcoder.jp/contests/typical90)
