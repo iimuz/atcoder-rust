@@ -1,7 +1,7 @@
 ---
 title: AtCoder using Rust
 date: 2023-05-01
-lastmod: 2023-05-07
+lastmod: 2023-05-21
 ---
 
 ## 概要
@@ -25,7 +25,6 @@ AtCoder の問題を取得したりテンプレートを作成する部分は、
 
 ```sh
 cargo compete new abc111  # src/abc111にコンテストのデータを柵瀬
-
 cd src/abc111
 cargo compete open  # ブラウザでコンテストのページを開く
 
@@ -34,6 +33,11 @@ cargo compete open  # ブラウザでコンテストのページを開く
 cargo compete test a  # a問題のテスト実行
 cargo compete submit a  # a問題を提出
 ```
+
+### VSCode での使い方
+
+問題を解く前に VSCode で `cargo compete new` で生成されたフォルダをルートフォルダとして開いてください。これにより rust-analyzer 等が利用できるようになります。
+また、トップディレクトリの .vscode フォルダをコピーすることで設定を有効化することができます。ただしコピーした .vscode フォルダはコミットしないでください。
 
 ### cargo compete の導入
 
